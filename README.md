@@ -4,7 +4,7 @@
 >
 > 一套经过大量真实竖屏口播 A/B 波形实测打磨的 AI 剪辑工作流 Skill——覆盖**波形级呼吸感气口精剪**、**自然中文整句字幕**、**手机端防遮挡安全区**与**高密度交互 MG 动效**。开箱即用，直接复制即可赋能 ChatCut、Claude Code、Codex、Cursor 或任意 AI 剪辑 Agent。
 
-![Version](https://img.shields.io/badge/version-v4.1.0-black)
+![Version](https://img.shields.io/badge/version-v4.2.0-black)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Format](https://img.shields.io/badge/format-Agent%20Skill%20(SKILL.md)-green)
 
@@ -72,7 +72,7 @@ talking-head-cut-skill/
 ├── references/
 │   ├── pacing-and-waveform-guide.md         # 7 条气口量化黄金法则 & 4 大 AI 剪辑病灶对照
 │   └── mobile-safe-zone-and-mg.md           # 1080×1920 竖屏防遮挡安全区蓝图 & 逐帧验收清单
-├── CHANGELOG.md                             # 完整版本迭代日志（v2.0 → v4.1）
+├── CHANGELOG.md                             # 完整版本迭代日志（v2.0 → v4.2）
 ├── README.md                                # 使用说明
 └── LICENSE                                  # MIT 开源协议
 ```
@@ -83,7 +83,7 @@ talking-head-cut-skill/
 
 查看完整演进过程与每次升级细节，请阅读 [`CHANGELOG.md`](./CHANGELOG.md)。
 
-- **`v4.1.0`**：新增抖音真机实测 `1080×1920` 竖屏顶部 `y = 0 - 260px` 防遮挡安全区红线，打包公开发布标准 Skill。
+- **`v4.2.0`**：新增抖音真机实测 `1080×1920` 竖屏顶部 `y = 0 - 260px` 防遮挡安全区红线，打包公开发布标准 Skill。
 - **`v4.0.0`**：新增三段式人工确认闭环、自然中文整句字幕铁律、高留存 MG 动效规范与 SFX 提示音标准。
 - **`v3.0.0`**：升级 `1.15x - 1.20x` 语速与呼吸感模型、波形级防吞字底线与语义二次瘦身法则。
 - **`v2.0.0`**：首版 1000Hz 波形对齐实测，沉淀 7 条气口剪辑量化黄金法则。
